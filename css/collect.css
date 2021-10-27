@@ -1,0 +1,93 @@
+.collect {
+  width: 100%;
+  display: flex;
+}
+
+.collect-left {
+  width: 40%;
+  height: 600px;
+  background: url(../img/man2.svg);
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+}
+
+.collect-right {
+  width: 60%;
+  text-align: center;
+}
+
+.collect-right__title {
+  margin: 100px 0 40px;
+}
+
+.collect-right__text {
+  width: 471px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto 60px;
+}
+
+.collect-right__btn {
+  width: 311px;
+  height: 47px;
+  border: 1px solid #ffffff;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .collect-left {
+    width: 50%;
+  }
+
+  .collect-right {
+    width: 50%;
+  }
+
+  .collect-right__title {
+    margin: 60px 0 40px;
+  }
+
+  .collect-right__text {
+    width: 330px;
+    margin: 0px auto 40px;
+  }
+
+  .collect-right__btn {
+    width: 260px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .collect-left {
+    display: none;
+  }
+
+  .collect-right {
+    width: 100%;
+  }
+
+  .collect-right__text {
+    width: 90%;
+  }
+}
+
+@media (max-width: 575px) {
+  .collect-right__text1{
+    font-size: 32px !important;
+  }
+}

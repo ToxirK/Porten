@@ -1,0 +1,27 @@
+.sponsor{
+    background: #0F0F0F;
+}
+
+.sponsor__title{
+    padding-top: 60px ;
+}
+
+.sponsor__wrapper{
+    width: 100%;
+    padding: 40px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1199px) {
+    .sponsor__wrapper{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 575px) {
+    .sponsor__img{
+        width: 80%;
+    }
+}

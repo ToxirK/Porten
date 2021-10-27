@@ -1,0 +1,144 @@
+.footer {
+  background: url(../img/footerbg.svg) no-repeat top / cover;
+}
+
+.footer__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+.footer__item {
+  width: 30%;
+  color: #ffffff;
+}
+
+.footer__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.footer-bottom {
+  background: #000;
+}
+
+.footer-bottom__copy {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #d0d0d0;
+  padding: 17px 0;
+}
+
+.footer__text {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.footer__menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer__link {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #d0d0d0;
+  padding: 10px 20px;
+  background: #0f0f0f;
+  transition: 500ms;
+}
+
+.footer__form {
+  margin-top: 35px;
+  width: 100%;
+}
+
+.footer__label {
+  width: 100%;
+  display: flex;
+  height: 42px;
+}
+
+.footer__inp {
+  width: 60%;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 8px 20px;
+  color: #ffffff;
+}
+
+.footer__inp::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footer__btn {
+  width: 40%;
+  padding: 8px 10px;
+  background: #0f0f0f;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 500ms;
+}
+.footer__link:hover,
+.footer__btn:hover{
+    background: rgb(129, 6, 6);
+}
+
+
+
+@media (max-width: 991px) {
+    .footer__wrapper{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 50px 20px;
+    }
+    
+    .footer__item{
+        width: 40%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .footer__wrapper{
+        padding: 40px 0;
+        gap: 25px;
+    }
+    
+    .footer__item{
+        width: 70%;
+    }
+    
+    .footer__title{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer__item{
+        width: 100%;
+    }
+}

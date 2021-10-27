@@ -1,0 +1,132 @@
+/* NORMALIZE CSS */
+@import url(normalize.css);
+
+/* HEADER CSS */
+@import url(header.css);
+
+/* MAIN CSS */
+@import url(main.css);
+
+/* COLLECTION CSS */
+@import url(collection.css);
+
+/* COLLECT CSS */
+@import url(collect.css);
+
+/* GALLERY CSS */
+@import url(gallery.css);
+
+/* SPONSOR CSS */
+@import url(sponsor.css);
+
+/* FOOTER CSS */
+@import url(footer.css);
+
+.gen-title {
+  width: 100%;
+  text-align: center;
+}
+
+.gen-title__text {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.gen-title__line {
+  width: 120px;
+  height: 1px;
+  background: #fff;
+  margin: 40px auto 0;
+}
+
+/* cards */
+
+.gen-item {
+  width: 230px;
+  transition: 500ms;
+}
+
+.gen-item:hover{
+  transform: scale(1.04);
+}
+.gen-item__img {
+  width: 100%;
+  background: #191b1c;
+  padding: 55px 22px;
+}
+
+.gen-item__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 25px 0 10px;
+}
+
+.gen-item__text {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+
+@media (max-width: 1400px) {
+  .gen-item {
+    width: 200px;
+  }
+
+  .gen-item__img {
+    padding: 50px 14px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .gen-item {
+    width: 165px;
+  }
+
+  .gen-item__img {
+    padding: 40px 12px;
+  }
+
+  .gen-title__text {
+    font-size: 35px;
+  }
+
+  .gen-title__line {
+    margin: 25px auto 0;
+  }
+}
+
+@media (max-width: 475px) {
+  .gen-title__line {
+    margin: 10px auto 0;
+  }
+
+  .gen-item__title {
+    font-size: 16px;
+    margin: 15px 0 5px;
+  }
+
+  .gen-item__text {
+    font-size: 14px;
+  }
+
+  .gen-item {
+    width: 45%;
+  }
+
+  .gen-item__img {
+    padding: 25px 0;
+  }
+}
